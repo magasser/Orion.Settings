@@ -1,0 +1,20 @@
+﻿<Project>
+    <PropertyGroup>
+        <TargetFramework>netstandard2.0</TargetFramework>
+        <LangVersion>latest</LangVersion>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+        <WarningsAsErrors>nullable</WarningsAsErrors>
+
+        <AssemblyName>$(MSBuildProjectName)</AssemblyName>
+
+        <IsPackable>true</IsPackable>
+        <PackageId>$(AssemblyName)</PackageId>
+
+        <RootNamespace>$(AssemblyName)</RootNamespace>
+
+        <Authors>Manuel Gasser</Authors>
+        <RepositoryUrl>https://github.com/magasser/Orion.Settings</RepositoryUrl>
+        <RepositoryType>Git</RepositoryType>
+    </PropertyGroup>
+</Project>
